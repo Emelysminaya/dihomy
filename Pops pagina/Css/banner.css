@@ -1,0 +1,35 @@
+.banner li{
+    width: 100%;
+    list-style: none;
+    }
+    
+    .banner img{
+        width: 65%;
+    }
+    
+    .banner{
+        width: 65%;
+        overflow: hidden;
+        margin: auto;
+    }
+    
+    .banner ul{
+        padding: 0;
+        display: flex;
+        width: 300%;
+        animation-name: slider;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease;
+    }
+@keyframes slider {
+    0%{margin-left: 0%;}
+    30%{margin-left: 0%;}
+
+    35%{margin-left: -100% ;}
+    65%{margin-left: -100%;}
+
+    70%{margin-left: -200%;}
+    100%{margin-left: -200%;}
+}

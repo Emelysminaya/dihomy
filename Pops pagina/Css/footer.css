@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #242CDE;
+}
+
+.logo{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.logo img{
+    margin: 10px;
+    width: 130px;
+}
+
+.contenedor{
+      width: 1200px;
+    display: flex;
+    margin: auto;
+}
+
+.col1{
+    width: 1200px;
+}
+
+.col1 h1 {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.col1 p{
+    margin-bottom: 10px;
+}
+
+.col3 h1 {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.col3{
+    width: 1200px;
+}
+
+.col3 p{
+    margin-bottom: 10px;
+}
+
+.col2{
+    width: 1200px;
+}
+
+.col2 img{
+    width: 40px;
+    margin: 5px;
+}
+
+.col2 .ig{
+display: flex;
+align-items: center;
+}
+
+.col2 .fc{
+display: flex;
+align-items: center;
+}
+
+.col2 .ws{
+display: flex;
+align-items: center;
+}
+
+.col2 h1 {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.final {
+    margin: auto;
+    width: 1200px;
+    height: 80px;
+    }
+    
+    .copy {
+    width: 600px;
+    float: left;
+    margin-top: 50px;
+    text-align: left;
+    }
+    
+    .politic {
+    width: 600px;
+    float: right;
+    margin-top: 50px;
+    text-align: right;
+    }

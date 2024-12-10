@@ -1,0 +1,18 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Nosotros{
+    display: flex;
+    align-content: center;
+    margin: 60px 0px 60px 0px;
+}
+
+.Nosotros article img{
+    width: 800px;
+    height: 600px;
+    
+}
